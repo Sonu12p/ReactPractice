@@ -6,7 +6,7 @@ function HighOrderCmp(Student) {
    function HighOrder(){
     const[inc, setInc] = useState(10)
     const HandleClick =() =>{
-        if(inc<20){
+        if(inc<!20){
             setInc(inc+1)
         }
     }
